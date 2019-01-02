@@ -5,8 +5,8 @@
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
-  --font-system: system-ui; /* postcssPresetEnv */
+  --font-primary: futura-pt, sans-serif;
+  --font-system: proxima-nova, sans-serif;
   --borderRadius: 3px;
 }
 
@@ -67,6 +67,7 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+  font-family: var(--font-primary);
 }
 
 pre {

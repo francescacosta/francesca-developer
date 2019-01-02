@@ -58,7 +58,7 @@ export default ({ children, meta, title }) => {
               titleTemplate={`%s | ${siteTitle}`}
             >
               {title}
-              {/* Add font link tags here */}
+              <link rel="stylesheet" href="https://use.typekit.net/wiy5zfd.css"/>
             </Helmet>
 
             <Meta
