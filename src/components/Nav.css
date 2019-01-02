@@ -7,10 +7,23 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
 }
 
+.logo {
+  text-decoration: none !important;
+}
+
+.logo h1 {
+  margin-bottom: -10px;
+}
+
+.logo h3 {
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
 .Nav--Container {
   display: flex;
   align-items: center;
-  height: 6rem;
+  height: 11rem;
 }
 
 .Nav--Links {

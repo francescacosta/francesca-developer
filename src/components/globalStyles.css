@@ -68,6 +68,13 @@ h6 {
   margin: 0;
   margin-bottom: 0.5em;
   font-family: var(--font-primary);
+  color: #222;
+  font-size: 42px;
+}
+
+h3 {
+  color: var(--midGrey);
+  font-size: 20px;
 }
 
 pre {
