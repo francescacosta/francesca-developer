@@ -14,11 +14,18 @@
   text-decoration: none !important;
 }
 
-.logo h1 {
+.logo h2 {
   margin-bottom: -10px;
 }
 
-.logo h3 {
+@media (max-width: 675px) {
+  .logo h2 {
+    font-size: 29px;
+    line-height: 35px;
+  }
+}
+
+.logo h4 {
   text-transform: uppercase;
   margin-top: 0px;
 }
@@ -115,7 +122,7 @@
   width: 15rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .Nav--Container {
     display: flex;
   }
