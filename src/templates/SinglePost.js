@@ -24,15 +24,6 @@ export const SinglePostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-      {featuredImage && (
-        <Image
-          background
-          className="SinglePost--BackgroundImage"
-          src={featuredImage}
-          alt={title}
-        />
-      )}
-
       <div className="container skinny">
         <Link className="SinglePost--BackButton" to="/blog/">
           <ChevronLeft /> BACK
