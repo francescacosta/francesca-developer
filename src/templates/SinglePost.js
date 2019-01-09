@@ -129,9 +129,6 @@ export const pageQuery = graphql`
         template
         subtitle
         date
-        categories {
-          category
-        }
         featuredImage
         siteImage
       }

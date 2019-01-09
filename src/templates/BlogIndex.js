@@ -5,7 +5,6 @@ import qs from 'qs'
 
 import _cloneDeep from 'lodash/cloneDeep'
 
-import PageHeader from '../components/PageHeader'
 import PostSection from '../components/PostSection'
 import PostCategoriesNav from '../components/PostCategoriesNav'
 import Layout from '../components/Layout'
@@ -62,12 +61,6 @@ export const BlogIndexTemplate = ({
 
       return (
         <main className="Blog">
-          <PageHeader
-            title={title}
-            subtitle={subtitle}
-            backgroundImage={featuredImage}
-          />
-
           {!!postCategories.length && (
             <section className="section thin">
               <div className="container">
@@ -148,9 +141,6 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date
-            categories {
-              category
-            }
             featuredImage
           }
         }
