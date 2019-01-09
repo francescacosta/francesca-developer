@@ -25,7 +25,7 @@ export const SinglePostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-      <div className="container skinny">
+      <div className="container">
         <Link className="SinglePost--BackButton" to="/blog/">
           <ChevronLeft /> BACK
         </Link>
@@ -64,7 +64,7 @@ export const SinglePostTemplate = ({
           )}
 
           <div className="SinglePost--InnerContent">
-            <img src={siteImage} />
+            <img className="site-image" src={siteImage} />
 
             <Content source={body} />
           </div>

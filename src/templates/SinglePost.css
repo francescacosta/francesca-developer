@@ -23,6 +23,12 @@
   height: 1.2em;
 }
 
+.SinglePost--InnerContent .site-image {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .SinglePost--BackButton:hover svg,
 .SinglePost--BackButton:focus svg {
   transform: translateX(-0.25em);
