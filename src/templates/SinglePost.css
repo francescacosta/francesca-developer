@@ -6,13 +6,15 @@
 }
 
 .SinglePost--BackButton {
-  color: white;
+  color: var(--secondary);
   position: relative;
   display: flex;
   align-items: center;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.1em;
+  font-family: var(--font-primary);
+  font-weight: 500;
 }
 
 .SinglePost--BackButton svg {
@@ -26,10 +28,15 @@
   transform: translateX(-0.25em);
 }
 
+.SinglePost--Title {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
 .SinglePost--Content {
   background: white;
-  margin-top: 30rem;
-  padding: 8rem 8rem 4rem 8rem;
+  margin-top: 5rem;
+  padding: 8rem 4rem 4rem 4rem;
 }
 
 @media screen and (max-width: 750px) {
@@ -72,9 +79,10 @@
 
 .SinglePost--Pagination--Link {
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 600;
   text-decoration: none;
+  letter-spacing: 1px;
 }
 
 .SinglePost--Pagination--Link.next {
