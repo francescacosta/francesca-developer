@@ -12,6 +12,6 @@ meta:
 siteImage: /images/viva-1.png
 ---
 
-[VIEW SITE HERE](https://goldskyglobal.com/)
+[VIEW SITE HERE](https://www.simtechcreations.com/)
 
-Goldsky Global, is a global investment management and data science corporation based in Australia with offices in Hong kong and Singapore. Founded in 2011 as a Quanatmental asset manager with a focus on developing and exploiting alpha signals across global markets. Since inception the Quantitative team at Goldsky have focused on developing an industry leading quantitative process to assist the investment professional.
+Simtech visual displays continue to be at the forefront of ever changing technology and innovation. By utilising a large range of developing visual technologies, they have excelled within an incredibly niche market of casino gaming and visual displays.
