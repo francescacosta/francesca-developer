@@ -13,6 +13,7 @@ export const SinglePostTemplate = ({
   title,
   date,
   featuredImage,
+  siteImage,
   body,
   nextPostURL,
   prevPostURL,
@@ -63,6 +64,8 @@ export const SinglePostTemplate = ({
           )}
 
           <div className="SinglePost--InnerContent">
+            <img src={siteImage} />
+
             <Content source={body} />
           </div>
 
@@ -130,6 +133,7 @@ export const pageQuery = graphql`
           category
         }
         featuredImage
+        siteImage
       }
     }
 
